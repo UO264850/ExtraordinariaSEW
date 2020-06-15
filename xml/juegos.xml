@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type= “text/xsl” href = “poema.xsl”?>  
+<!DOCTYPE juegos SYSTEM "juegos.dtd">
+<juegos>
+<juego titulo="Counter Strike: Global Offensive">
+    <desarrolladores>
+        <desarrollador nombre="Valve Corporation">
+            <fecha_fundacion>24/8/1996</fecha_fundacion>
+            <CEO>Gabe Newell</CEO>
+        </desarrollador>
+        <desarrollador nombre="Hidden Path Entertainment">
+            <fecha_fundacion>13/5/2006</fecha_fundacion>
+            <CEO>Jeff Pobst</CEO>
+        </desarrollador>
+    </desarrolladores>
+    <pais>Estados Unidos</pais>
+    <fecha_lanzamiento>
+        <japon>21/8/2011</japon>
+        <europa>21/8/2011</europa>
+        <america>21/8/2011</america>
+    </fecha_lanzamiento>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>Xbox One</plataforma>
+        <plataforma>PlayStation 3</plataforma>
+    </plataformas>
+    <genero>FPS</genero>
+    <jugadores>24</jugadores>
+</juego>
+<juego titulo="Dota 2">
+    <desarrolladores>
+        <desarrollador nombre="Valve Corporation">
+            <fecha_fundacion>24/8/1996</fecha_fundacion>
+            <CEO>Gabe Newell</CEO>
+        </desarrollador>
+    </desarrolladores>
+    <pais>Estados Unidos</pais>
+    <fecha_lanzamiento>
+        <japon>9/7/2013</japon>
+        <europa>9/7/2013</europa>
+        <america>9/7/2013</america>
+    </fecha_lanzamiento>
+    <plataformas>
+        <plataforma>PC</plataforma>
+    </plataformas>
+    <genero>MOBA</genero>
+    <jugadores>10</jugadores>
+    <fotos>
+        <foto>../media/dota2.jpg</foto>
+    </fotos>
+</juego>
+<juego titulo="Fallout 4">
+    <desarrolladores>
+        <desarrollador nombre="Bethesda Game Studios">
+            <fecha_fundacion>28/6/2001</fecha_fundacion>
+            <CEO>Todd Howard</CEO>
+        </desarrollador>
+    </desarrolladores>
+    <pais>Estados Unidos</pais>
+    <fecha_lanzamiento>
+        <japon>10/11/2015</japon>
+        <europa>10/11/2015</europa>
+        <america>10/11/2015</america>
+    </fecha_lanzamiento>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>Xbox One</plataforma>
+        <plataforma>PlayStation 4</plataforma>
+    </plataformas>
+    <genero>Rol de Acción</genero>
+    <jugadores>1</jugadores>
+</juego>
+<juego titulo="Grand Theft Auto V">
+    <desarrolladores>
+        <desarrollador nombre="Rockstar North">
+            <fecha_fundacion>30/9/1984</fecha_fundacion>
+            <CEO>Terry Donovan</CEO>
+        </desarrollador>
+    </desarrolladores>
+    <pais>Reino Unido</pais>
+    <fecha_lanzamiento>
+        <japon>10/10/2013</japon>
+        <europa>17/9/2013</europa>
+        <america>17/9/2013</america>
+    </fecha_lanzamiento>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>Xbox One</plataforma>
+        <plataforma>PlayStation 4</plataforma>
+    </plataformas>
+    <genero>Acción-Aventura</genero>
+    <jugadores>1</jugadores>
+    <fotos>
+        <foto>../media/gtav.jpg</foto>
+    </fotos>
+</juego>
+<juego titulo="MONSTER HUNTER: WORLD">
+    <desarrolladores>
+        <desarrollador nombre="Capcom">
+            <fecha_fundacion>30/5/1979</fecha_fundacion>
+            <CEO>Kenzō Tsujimoto</CEO>
+        </desarrollador>
+    </desarrolladores>
+    <pais>Japón</pais>
+    <fecha_lanzamiento>
+        <japon>26/1/2018</japon>
+        <europa>26/1/2018</europa>
+        <america>26/1/2018</america>
+    </fecha_lanzamiento>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>Xbox One</plataforma>
+        <plataforma>PlayStation 4</plataforma>
+    </plataformas>
+    <genero>Rol de Acción</genero>
+    <jugadores>1</jugadores>
+</juego>
+<juego titulo="Terraria">
+    <desarrolladores>
+        <desarrollador nombre="Re-Logic">
+            <fecha_fundacion>10/1/2011</fecha_fundacion>
+            <CEO>Andrew Spinks</CEO>
+        </desarrollador>
+    </desarrolladores>
+    <pais>Estados Unidos</pais>
+    <fecha_lanzamiento>
+        <japon>16/5/2011</japon>
+        <europa>16/5/2011</europa>
+        <america>16/5/2011</america>
+    </fecha_lanzamiento>
+    <plataformas>
+        <plataforma>PC</plataforma>
+        <plataforma>Xbox One</plataforma>
+        <plataforma>PlayStation 4</plataforma>
+    </plataformas>
+    <genero>Acción-Aventura</genero>
+    <jugadores>8</jugadores>
+</juego>
+</juegos>

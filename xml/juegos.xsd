@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="juegos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="juego" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="juego">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="desarrolladores" />
+        <xs:element ref="pais" />
+        <xs:element ref="fecha_lanzamiento" />
+        <xs:element ref="plataformas" />
+        <xs:element ref="genero" />
+        <xs:element ref="jugadores" />
+        <xs:element minOccurs="0" maxOccurs="1" ref="fotos" />
+      </xs:sequence>
+      <xs:attribute name="titulo" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="desarrolladores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="3" ref="desarrollador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="desarrollador">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="fecha_fundacion" />
+        <xs:element ref="CEO" />
+      </xs:sequence>
+      <xs:attribute name="nombre" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fecha_fundacion" type="xs:string" />
+  <xs:element name="CEO" type="xs:string" />
+  <xs:element name="pais" type="xs:string" />
+  <xs:element name="fecha_lanzamiento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="japon" />
+        <xs:element ref="europa" />
+        <xs:element ref="america" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="japon" type="xs:string" />
+  <xs:element name="europa" type="xs:string" />
+  <xs:element name="america" type="xs:string" />
+  <xs:element name="plataformas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="plataforma" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="plataforma" type="xs:string" />
+  <xs:element name="genero" type="xs:string" />
+  <xs:element name="jugadores" type="xs:string" />
+  <xs:element name="fotos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="5" ref="foto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="foto" type="xs:string" />
+</xs:schema>

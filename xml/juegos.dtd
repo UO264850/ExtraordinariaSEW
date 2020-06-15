@@ -1,0 +1,19 @@
+<!ELEMENT juegos(juego+)>
+<!ELEMENT juego(desarrolladores, pais, fecha_lanzamiento, plataformas, genero, jugadores, fotos?)>
+<!ELEMENT desarrolladores(desarrollador+)>
+<!ELEMENT desarrollador (fecha_fundacion, CEO)>
+<!ELEMENT fecha_fundacion (#PCDATA)>
+<!ELEMENT CEO (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT fecha_lanzamiento (japon, europa, america)>
+<!ELEMENT japon (#PCDATA)>
+<!ELEMENT europa (#PCDATA)>
+<!ELEMENT america (#PCDATA)>
+<!ELEMENT plataformas (plataforma+)>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT jugadores (#PCDATA)>
+<!ELEMENT fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST juego titulo CDATA #REQUIRED>
+<!ATTLIST desarrollador nombre CDATA #REQUIRED>
