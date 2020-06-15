@@ -48,7 +48,7 @@ a:visited{
 /*Specifity 1*/
 table, th, td{
     background-color: black;
-    color: lavender;
+    color: white;
     padding: 0.5em;
     text-align: center;
 }
@@ -61,5 +61,5 @@ nav{
 /*Specifity 1*/
 ul, ol, dl{
     background-color: black;
-    color: lavender;
+    color: white;
 }
