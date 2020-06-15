@@ -37,29 +37,29 @@ p{
 
 /*Specifity 11*/
 a:link{
-    color:  red;
+    color:  lightblue;
 }
 
 /*Specifity 11*/
 a:visited{
-    color: green;
+    color: lavender;
 }
 
 /*Specifity 1*/
 table, th, td{
-    background-color: white;
-    color: green;
+    background-color: black;
+    color: lavender;
     padding: 0.5em;
     text-align: center;
 }
 
 /*Specifity 1*/
 nav{
-    background-color: white;
+    background-color: black;
 }
 
 /*Specifity 1*/
 ul, ol, dl{
-    background-color: white;
-    color: green;
+    background-color: black;
+    color: lavender;
 }
